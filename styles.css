@@ -1,0 +1,47 @@
+h1{
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: bolder;
+
+    color: rgb(78, 8, 144);
+    text-align: center;
+}
+.welcome h3{
+    font-size: 30px;
+    font-weight: bold;
+
+
+}
+.welcome p{
+    font-size: 30px;
+    text-align: justify;
+    background-color: azure;
+}
+.welcome span{
+    font-weight:bold;
+    font-size: 40px;
+    color: rgb(177, 115, 235);
+}
+.welcome{
+    margin: 20px;
+    display: flex;
+    gap: 50px;
+    align-items: center;
+    justify-content: center;
+}
+@media (max-width:1000px) {
+    .welcome{
+        flex-direction: column;
+    }
+    
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+#contactForm{
+    color: rgb(39, 8, 55);
+}
